@@ -83,12 +83,21 @@ Eine Dartzählapp, als Webapp mit React und Firebase für Speicherung, die sich 
 
 ## 2. Planen
 
-| AP-№ | Frist     | Zuständig       | Beschreibung       | Geplante Zeit in Stunden |
-|------|-----------|-----------------|-------------------|-------------------------------|
-| 1.1  |    |  Janick     | Festlegen der Ordnerstruktur und grundlegenden Komponenten in React.            |   |
-| 1.2  |    |  Janick     | Design der Grundlayouts für Startseite und Spiel-Interface (Mockups oder einfache Platzhalter).            |   |
-| 1.3  |    |  Janick     | Festlegen der Ordnerstruktur und grundlegenden Komponenten in React.            |   |
-Total: 21 Stunden
+
+| AP-№  | Frist        | Zuständig       | Beschreibung                                                                 | Geplante Zeit in Stunden |
+|-------|--------------|-----------------|-----------------------------------------------------------------------------|---------------------------|
+| 1.1   | 17.01.2025   | Janick            | Implementierung der Startseite und Auswahlmöglichkeiten für alle Spielmodi. | 2                         |
+| 2.1   | 17.01.2025   | Janick            | Implementierung der Punktzählung für den Spielmodus 301/501.                | 2                         |
+| 2.2   | 24.01.2025   | Janick            | Implementierung der Punktzählung für den Spielmodus High Score.             | 2                         |
+| 3.1   | 24.01.2025   | Janick            | Implementierung der Gewinneranzeige und Spielende-Bedingungen.              | 2                         |
+| 4.1   | 14.02.2025   | Janick            | Erstellung der Statistikseite und Anbindung an Firebase.                    | 3                         |
+| 5.1   | 21.02.2025   | Janick            | Optimierung des responsiven Designs für verschiedene Geräte.                | 3                         |
+| 8.1   | 21.02.2025   | Janick            | Deployment der Webapp auf Netlify und Test der Verfügbarkeit.               | 2                         |
+| 9.1   | 28.02.2025   | Janick            | Speichern der Spielstatistiken in Firebase nach Spielende.                  | 2                         |
+| 9.2   | 28.02.2025   | Janick            | Laden und Anzeigen von gespeicherten Statistiken aus Firebase.              | 2                         |
+| 10.1  | 07.03.2025   | Janick            | Implementierung des dunklen Farbschemas als Standarddesign.                 | 1                         |
+
+**Total:** 21 Stunden  
 
 ## 3 Entscheiden
 
