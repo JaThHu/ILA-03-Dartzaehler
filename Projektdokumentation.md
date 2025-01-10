@@ -58,13 +58,26 @@ Eine Dartzählapp, als Webapp mit React und Firebase für Speicherung, die sich 
 | 10   | muss            | Qualität     | Die App muss ein dunkles Farbschema verwenden, um die Benutzererfahrung zu verbessern.            |
 
 
-### 1.4 Testfälle
+### 1.4 Testfälle 
 
-
-
-| TC-№ | Ausgangslage                                      | Eingabe                             | Erwartete Ausgabe                                                                                       |
-|------|---------------------------------------------------|-------------------------------------|----------------------------------------------------------------------------------------------------------|
-|  |                    |               |    |
+| TC-№ | Ausgangslage                            | Eingabe                                      | Erwartete Ausgabe                             |
+|------|----------------------------------------|---------------------------------------------|-----------------------------------------------|
+| 1.1  | Startseite ist geladen.                 | Der Nutzer wählt den Spielmodus "301/501".  | Der Spielmodus "301/501" wird gestartet.      |
+| 1.2  | Startseite ist geladen.                 | Der Nutzer wählt den Spielmodus "Around the Clock". | Der Spielmodus "Around the Clock" wird gestartet. |
+| 1.3  | Startseite ist geladen.                 | Der Nutzer wählt den Spielmodus "High Score". | Der Spielmodus "High Score" wird gestartet.   |
+| 2.1  | Ein Spielmodus (z. B. 301/501) läuft.   | Der Nutzer gibt die Punktzahl eines Wurfs ein (z. B. 20). | Die Punktzahl wird korrekt vom Gesamtscore abgezogen. |
+| 2.2  | Ein Spielmodus (z. B. High Score) läuft.| Der Nutzer gibt die Punktzahl eines Wurfs ein (z. B. 50). | Die Punktzahl wird zur Gesamtpunktzahl addiert. |
+| 3.1  | Ein Spiel ist beendet.                  | Keine Eingabe erforderlich.                 | Der Gewinner und die Endergebnisse werden angezeigt. |
+| 4.1  | Statistikseite ist aufrufbar.           | Der Nutzer öffnet die Statistikseite.       | Die Spielhistorie und Ergebnisse werden angezeigt. |
+| 4.2  | Statistiken existieren.                 | Keine Eingabe erforderlich.                 | Die Statistikdaten werden korrekt geladen und dargestellt. |
+| 5.1  | Die Webapp wird auf einem Desktop geöffnet.| Keine Eingabe erforderlich.                 | Die Benutzeroberfläche wird korrekt angezeigt und ist funktional. |
+| 5.2  | Die Webapp wird auf einem Smartphone geöffnet.| Keine Eingabe erforderlich.                 | Die Benutzeroberfläche wird responsiv angepasst und ist funktional. |
+| 6.1  | Animationen sind aktiviert (optional).  | Der Nutzer gibt eine Punktzahl ein.         | Eine Animation (z. B. Trefferanzeige) wird angezeigt. |
+| 7.1  | Farbschema-Auswahl ist verfügbar (optional).| Der Nutzer wählt ein anderes Farbschema aus.| Das Farbschema der App wird geändert.        |
+| 8.1  | Die Webapp ist auf Netlify veröffentlicht.| Keine Eingabe erforderlich.                 | Die Webapp ist online zugänglich.             |
+| 9.1  | Firebase ist konfiguriert.              | Der Nutzer beendet ein Spiel.               | Die Ergebnisse werden in Firebase gespeichert. |
+| 9.2  | Firebase ist konfiguriert.              | Der Nutzer öffnet die Statistikseite.       | Daten werden korrekt aus Firebase geladen.    |
+| 10.1 | App ist auf einem Gerät geöffnet.       | Keine Eingabe erforderlich.                 | Das Farbschema ist standardmäßig dunkel.      |
 
 
 
