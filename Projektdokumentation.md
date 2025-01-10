@@ -5,6 +5,12 @@ Janick Thomas Hurschler
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
 |  10.01.2025    | 0.0.0   | Start des Projektes - Informieren, Planen, Entscheiden. Doku erstellt. |
+|  17.01.2025    |  | |
+|  24.01.2025    |  | |
+|  14.02.2025    |  | |
+|  21.02.2025    |  | |
+|  28.02.2025    |  | |
+|  07.03.2025    |  | |
 
 
 ## 1 Informieren
@@ -17,15 +23,39 @@ Eine Dartzählapp, als Webapp mit React und Firebase für Speicherung, die sich 
 
 | Meilenstein-Nr. | Beschreibung | geplantes Datum |
 |------|----|-----|
-|  |  |  |
+| 1 | Grundstruktur und Navigation.  | 17.01.2025 |
+| 2 | Implementierung der Spielmodi | 21.02.2025 |
+| 3 | Statistik und Design | 28.02.2025 |
+| 4 | Veröffentlichung und Test | 07.03.2025 |
 
+
+* **Meilenstein 1** 
+  - Startseite und Routing sind funktionsfähig.
+  - Firebase ist eingerichtet.
+* **Meilenstein 2**
+  - Alle drei Spielmodi (301/501, Around the Clock, High Score) sind implementiert und funktionstüchtig.
+* **Meilenstein 3** 
+  - Statistikfunktion ist integriert und funktioniert mit Firebase.
+  - Responsives Design ist fertiggestellt.
+* **Meilenstein 4**
+  - Die Webapp ist auf Netlify veröffentlicht.
+  - Alle Funktionen wurden getestet und notwendige Optimierungen durchgeführt.
+    
 
 ### 1.3 User Stories
 
-| US-№ | Verbindlichkeit | Typ             | Beschreibung                                                                                       |
-|------|-----------------|-----------------|---------------------------------------------------------------------------------------------------|
-|     |         |      |  |
-
+| US-№ | Verbindlichkeit | Typ          | Beschreibung                                                                                       |
+|------|-----------------|--------------|---------------------------------------------------------------------------------------------------|
+| 1    | muss            | Funktional   | Als Nutzer möchte ich aus drei Spielmodi (301/501, Around the Clock, High Score) auswählen können. |
+| 2    | muss            | Funktional   | Als Nutzer möchte ich meine Punkte während eines Spiels erfassen und automatisch berechnen lassen. |
+| 3    | muss            | Funktional   | Als Nutzer möchte ich am Ende eines Spiels den Gewinner und das Spielergebnis angezeigt bekommen. |
+| 4    | muss            | Funktional   | Als Nutzer möchte ich eine Statistik einsehen können, die meine Spielhistorie und Ergebnisse zeigt. |
+| 5    | muss            | Funktional   | Als Nutzer möchte ich, dass die App auf verschiedenen Geräten (Desktop und Mobil) benutzerfreundlich ist. |
+| 6    | kann            | Funktional   | Als Nutzer möchte ich Animationen sehen, die meine Aktionen im Spiel visuell unterstützen.        |
+| 7    | kann            | Qualität     | Als Nutzer möchte ich zwischen verschiedenen Farbschemata wechseln können, um die Optik anzupassen. |
+| 8    | muss            | Randbedingung| Die Webapp muss auf Netlify veröffentlicht und öffentlich zugänglich sein.                        |
+| 9    | muss            | Randbedingung| Alle Statistiken müssen in Firebase gespeichert und abrufbar sein.                                |
+| 10   | muss            | Qualität     | Die App muss ein dunkles Farbschema verwenden, um die Benutzererfahrung zu verbessern.            |
 
 
 ### 1.4 Testfälle
@@ -40,10 +70,11 @@ Eine Dartzählapp, als Webapp mit React und Firebase für Speicherung, die sich 
 
 ## 2. Planen
 
-| AP-№ | Frist     | Zuständig       | Beschreibung                                                                                                  | Geplante Zeit in Stunden |
-|------|-----------|-----------------|--------------------------------------------------------------------------------------------------------------|-------------------------------|
-|   |    |       |             |   |
-
+| AP-№ | Frist     | Zuständig       | Beschreibung       | Geplante Zeit in Stunden |
+|------|-----------|-----------------|-------------------|-------------------------------|
+| 1.1  |    |  Janick     | Festlegen der Ordnerstruktur und grundlegenden Komponenten in React.            |   |
+| 1.2  |    |  Janick     | Design der Grundlayouts für Startseite und Spiel-Interface (Mockups oder einfache Platzhalter).            |   |
+| 1.3  |    |  Janick     | Festlegen der Ordnerstruktur und grundlegenden Komponenten in React.            |   |
 Total: 21 Stunden
 
 ## 3 Entscheiden
