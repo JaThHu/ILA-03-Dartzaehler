@@ -5,7 +5,7 @@ Janick Thomas Hurschler
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
 |  10.01.2025    | 0.0.0   | Start des Projektes - Informieren, Planen, Entscheiden. Doku erstellt. |
-|  17.01.2025    |  | |
+|  17.01.2025    | 0.1.0 |Implementierung der Startseite, Spieleauswahl und Logik für das 301/501-Game. |
 |  24.01.2025    |  | |
 |  14.02.2025    |  | |
 |  21.02.2025    |  | |
@@ -153,7 +153,8 @@ Eine Dartzählapp, als Webapp mit React und Firebase für Speicherung, die sich 
 
 | AP-№ | Datum   | Zuständig               | Geplante Zeit | Tatsächliche Zeit |
 |------|---------|-------------------------|---------------|-------------------|
-| |   |                |     |         |
+|1.1 |  17.01. |    Janick           |   2  |    2     |
+|2.1|17.01.|Janick|2|2|
 
 
 ## 5 Kontrollieren
